@@ -25,4 +25,12 @@ La **cryptographie symétrique** (ou cryptographie à clé privée) utilise la m
 
 Lorsque vous visitez un site Web sécurisé (repéré par "https://" dans l'URL), votre navigateur établit une connexion sécurisée avec le serveur de ce site. Cette connexion sécurisée est établie grâce à un protocole de sécurisation appelé SSL (Secure Sockets Layer) ou TLS (Transport Layer Security).
 Le serveur du site envoie alors son certificat SSL à votre navigateur. Ce certificat contient la clé publique du serveur, qui est utilisée pour établir une communication sécurisée entre votre navigateur et le serveur.
-Une fois que votre navigateur a reçu le certificat du serveur, il génère une clé de session aléatoire, également connue sous le nom de clé de chiffrement. Cette clé de session est une clé temporaire utilisée uniquement pour cette session particulière de communication entre votre navi
+Une fois que votre navigateur a reçu le certificat du serveur, il génère une clé de session aléatoire, également connue sous le nom de clé de chiffrement. Cette clé de session est une clé temporaire utilisée uniquement pour cette session particulière de communication entre votre navigateur et le serveur.
+
+## Deuxième cryptosystème : Chiffrement par substitution ou mono-alphabétique
+
+Le chiffrement par substitution consiste sur le fait qu'à chaque élément de P(texte clair) correspond un unique élément de C(texte chiffré).
+
+### Exemple : Chiffrement de César
+
+C'est un exemple simple de chiffrement par substitution où chaque lettre du texte clair est remplacée par une autre lettre, mais en utilisant un décalage fixe dans l'alphabet.
