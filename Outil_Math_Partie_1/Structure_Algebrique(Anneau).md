@@ -31,3 +31,7 @@ d’un anneau A sera noté A<sup>x</sup>
 ## Association 
 Pour a ∈ A nous appelons associé à a tout élément b de la forme
 b = ua avec u ∈ A<sup>x</sup>
+
+## Diviseur de zéro et anneau intègre
+Un élément a != 0 ∈ A est diviseur de 0 s’il existe b != 0 ∈ A tel que
+ab = 0. Un anneau A est dit intègre s’il n’existe pas de diviseur de 0 dans A.
