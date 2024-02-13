@@ -17,6 +17,10 @@ On construit un nouveau nombre premier :  $$1 + \prod_{i=1}^{k} n_i$$, ce qui co
 ### Lemme
 Un entier n > 1 est premier ssi il n’est divisible par aucun entier
 compris entre 2 et √n.
+### Entiers premiers entre eux
+Deux entiers a et b sont premiers entre eux ssi l’ensemble des diviseurs
+communs à a et b est réduit aux inversibles.
+
 
 ## Théorème de Lagrange
 
