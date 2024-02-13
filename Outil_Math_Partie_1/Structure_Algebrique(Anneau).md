@@ -28,3 +28,6 @@ Un élément a d’un anneau A est dit inversible s’il existe b ∈ A tel que
 ab = 1. L’élément b est appelé inverse de a. L’ensemble des inversibles
 d’un anneau A sera noté A<sup>x</sup>
 
+## Association 
+Pour a ∈ A nous appelons associé à a tout élément b de la forme
+b = ua avec u ∈ A<sup>x</sup>
