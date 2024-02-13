@@ -24,7 +24,7 @@ Soit (G, ×) un groupe fini et H un sous-groupe de G. Alors le cardinal
 de H est un diviseur du cardinal de G. (Le cardinal d’un groupe est
 aussi appelé ordre.)
 
-## Ordre d’un élément
+### Ordre d’un élément
 Soit g un élément d’un groupe fini (G,*). On appelle ordre de g le plus petit entier strictement
 positif k tel que 
 g<sup>k</sup> = e alors k est un multiple de l’ordre de g,
