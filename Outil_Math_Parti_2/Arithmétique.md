@@ -41,12 +41,15 @@ pgcd(a, b) = ua + vb.
 Une telle égalité s’appelle une relation de Bézout et les coefficients u
 et v sont appelés les coefficients de Bézout.
 ### Corollaires du théorème de Bachet-Bézout
-Deux entiers a et b sont premiers entre eux ssi
+Deux entiers a et b sont premiers entre eux ssi : 
+\
 leur plus grand commun diviseur est inversible et puisqu’il est positif
 c’est 1 :
 pgcd(a, b) = 1
+\
 il existe u et v tel que
 ua + vb = 1
+\
 l’ensemble des entiers qui sont multiples de a ou de b forme l’anneau Z
 tout entier
 aZ + bZ = 1Z = Z
