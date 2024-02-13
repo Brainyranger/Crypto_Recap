@@ -12,4 +12,4 @@ G est un ensemble dont les éléments sont combinés à l'aide d'une opération 
 
 ## Sous-groupe engendré par un élément
 
-Dans un groupe \( (G, *) \), le sous-groupe \(g), engendré par un élément \( g \), est l'ensemble de tous les éléments obtenus en effectuant la composition répétée de l'élément \( g \) avec lui-même un nombre fini de fois. C'est-à-dire, en multipliant \( g \) par lui-même un nombre arbitraire de fois à l'aide de l'opération \( * \).
+Dans un groupe \( (G, *) \), le sous-groupe \<g>, engendré par un élément \( g \), est l'ensemble de tous les éléments obtenus en effectuant la composition répétée de l'élément \( g \) avec lui-même un nombre fini de fois. C'est-à-dire, en multipliant \( g \) par lui-même un nombre arbitraire de fois à l'aide de l'opération \( * \).
