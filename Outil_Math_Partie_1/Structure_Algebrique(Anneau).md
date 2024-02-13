@@ -9,6 +9,10 @@
 \
 -**Commutativité de la seconde opération**
 
+## Définition
+Un anneau dont tous les éléments différents de l’unité pour la
+première opération sont inversibles est un corps.
+
 ## Sous-groupe 
 Un sous-ensemble U (Unterring) d’un anneau A est un sous-anneau de A s’il est
 lui-même un anneau pour les opérations de A.
