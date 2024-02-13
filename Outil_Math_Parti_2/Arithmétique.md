@@ -17,3 +17,14 @@ On construit un nouveau nombre premier :  $$1 + \prod_{i=1}^{k} n_i$$, ce qui co
 ### Lemme
 Un entier n > 1 est premier ssi il n’est divisible par aucun entier
 compris entre 2 et √n.
+
+## Théorème de Lagrange
+
+Soit (G, ×) un groupe fini et H un sous-groupe de G. Alors le cardinal
+de H est un diviseur du cardinal de G. (Le cardinal d’un groupe est
+aussi appelé ordre.)
+
+## Ordre d’un élément
+Soit g un élément d’un groupe fini (G,*). On appelle ordre de g le plus petit entier strictement
+positif k tel que 
+g<sup>k<\sup> = e alors k est un multiple de l’ordre de g,
