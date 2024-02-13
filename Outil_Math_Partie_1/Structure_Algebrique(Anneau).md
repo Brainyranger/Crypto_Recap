@@ -21,3 +21,9 @@ a est un diviseur de b
 b est un multiple de a.
 \
 On note alors **a | b.**
+
+## Inversebilité 
+
+Un élément a d’un anneau A est dit inversible s’il existe b ∈ A tel que
+ab = 1. L’élément b est appelé inverse de a. L’ensemble des inversibles
+d’un anneau A sera noté A^x
