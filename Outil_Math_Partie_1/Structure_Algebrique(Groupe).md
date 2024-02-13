@@ -19,3 +19,7 @@ C’est un groupe (G,*) qui peut être engendré par un élément :
 ∃g ∈ G tq ∀a ∈ G , a = g * g * · · · *g
 \
 autrement dit G = \<g>. On dit alors que g est un générateur du groupe G
+
+## Sous-groupe 
+Un sous-ensemble U (Untergruppe) d’un groupe G est un sous-groupe de G s’il est
+lui-même un groupe pour les opérations de G.
