@@ -34,3 +34,12 @@ y = ax + b mod 26
 \
 Ceci n’est possible que si a est inversible modulo 26. On obtient alors
 dK(y) = a<sup>−1</sup>(y − b)
+
+### Indicatrice d’Euler
+Étant donné un entier n, le nombre d’éléments strictement positifs,
+inférieurs à n et premiers avec n est noté ϕ(n). Ce nombre est appelé
+indicatrice d’Euler de n et noté
+\
+ϕ(a) = card{0 < n < a : pgcd(a, n) = 1}
+\
+Le nombre de clefs possibles est donc ϕ(26) × 2
