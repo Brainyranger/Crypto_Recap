@@ -21,7 +21,8 @@ Pour tout $K \in K$, on a :
 
 **Pour le cas du cryptosystème par substitution sur alphabets identiques K est l’ensemble des permutations de P dans C.**
 
-- \( P \) et \( C \) sont tous les deux égaux à \( \mathbb{Z}/26\mathbb{Z} \).
-- \( K \) est un sous-ensemble de \( \mathbb{Z}/26\mathbb{Z} \times \mathbb{Z}/26\mathbb{Z} \) tel que pour tout \( K = (a, b) \in K \), on a \( e_K(x) = (ax + b) \mod 26 \).
-- Il existe une fonction \( d_K : C \rightarrow P \) inverse de \( e_K \).
+- \(P\) et \(C\) sont tous les deux égaux à $$\( \mathbb{Z}/26\mathbb{Z} \)$$.
+- \(K\) est un sous-ensemble de $$\( \mathbb{Z}/26\mathbb{Z} \times \mathbb{Z}/26\mathbb{Z} \)$$ tel que pour tout $$\( K = (a, b) \in K \)$$,
+-  on a $$\( e_K(x) = (ax + b) \mod 26 \)$$.
+- Il existe une fonction $$\( d_K : C \rightarrow P \) inverse de \( e_K \)$$.
 
