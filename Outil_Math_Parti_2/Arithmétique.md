@@ -27,4 +27,4 @@ aussi appelé ordre.)
 ## Ordre d’un élément
 Soit g un élément d’un groupe fini (G,*). On appelle ordre de g le plus petit entier strictement
 positif k tel que 
-g<sup>k<sup> = e alors k est un multiple de l’ordre de g,
+g<sup>k</sup> = e alors k est un multiple de l’ordre de g,
