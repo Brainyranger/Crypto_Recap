@@ -15,6 +15,7 @@ G est un ensemble dont les éléments sont combinés à l'aide d'une opération 
 Dans un groupe \( (G, *) \), le sous-groupe \<g>, engendré par un élément \( g\), est l'ensemble de tous les éléments obtenus en effectuant la composition répétée de l'élément \( g \) avec lui-même un nombre fini de fois. C'est-à-dire, en multipliant \( g \) par lui-même un nombre arbitraire de fois à l'aide de l'opération \( * \).
 ## Groupe cyclique (ou monogène)
 C’est un groupe (G,*) qui peut être engendré par un élément :
+\
 ∃g ∈ G tq ∀a ∈ G , a = g * g * · · · *g
 \
-autrement dit G = <g>. On dit alors que g est un générateur du groupe G
+autrement dit G = \<g>. On dit alors que g est un générateur du groupe G
