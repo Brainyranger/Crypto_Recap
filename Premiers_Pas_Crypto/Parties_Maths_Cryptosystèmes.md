@@ -42,4 +42,4 @@ indicatrice d’Euler de n et noté
 \
 ϕ(a) = card{0 < n < a : pgcd(a, n) = 1}
 \
-Le nombre de clefs possibles est donc ϕ(26) × 2
+Le nombre de clefs possibles est donc ϕ(26) × 26
