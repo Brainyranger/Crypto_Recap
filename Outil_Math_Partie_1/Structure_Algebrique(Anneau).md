@@ -5,7 +5,7 @@
 \
 -**Associativité et existence d’un élément neutre pour ◦**
 \
--**Distributivité de ◦ par rapport à * : ∀(a, b, c) ∈ A3 , c ◦ (a * b) = (c ◦ a) * (c ◦ b)**
+-**Distributivité de ◦ par rapport à * : ∀(a, b, c) ∈ A<sup>3</sup> , c ◦ (a * b) = (c ◦ a) * (c ◦ b)**
 \
 -**Commutativité de la seconde opération**
 
@@ -26,4 +26,5 @@ On note alors **a | b.**
 
 Un élément a d’un anneau A est dit inversible s’il existe b ∈ A tel que
 ab = 1. L’élément b est appelé inverse de a. L’ensemble des inversibles
-d’un anneau A sera noté A^x
+d’un anneau A sera noté A<sup>x</sup>
+
