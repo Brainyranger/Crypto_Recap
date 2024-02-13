@@ -31,3 +31,26 @@ g<sup>k</sup> = e alors k est un multiple de l’ordre de g
 
 ### Corollaire
 Tout groupe (G,*) dont l’ordre est un nombre premier est cyclique.
+
+## Théorème de Bachet-Bézout
+Soit a et b deux éléments d’un anneau euclidien A. Il existe deux
+éléments u et v tel que : 
+\
+pgcd(a, b) = ua + vb.
+\
+Une telle égalité s’appelle une relation de Bézout et les coefficients u
+et v sont appelés les coefficients de Bézout.
+
+## Algorithme d’Euclide étendu
+\[
+\begin{cases}
+u_0 = 1, v_0 = 0, r_0 = a \\
+u_1 = 0, v_1 = 1, r_1 = b \\
+u_{i+1} = u_{i-1} - q_i u_i, \\
+v_{i+1} = v_{i-1} - q_i v_i, \\
+r_{i+1} = r_{i-1} - q_i r_i, \\
+\text{si } r_i \neq 0 \text{ et arrêt sinon.}
+\end{cases}
+\]
+
+avec \( q_i = \left\lfloor \frac{r_{i-1}}{r_i} \right\rfloor \) si \( r_i \neq 0 \).
