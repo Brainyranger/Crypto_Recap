@@ -35,3 +35,17 @@ b = ua avec u ∈ A<sup>x</sup>
 ## Diviseur de zéro et anneau intègre
 Un élément a != 0 ∈ A est diviseur de 0 s’il existe b != 0 ∈ A tel que
 ab = 0. Un anneau A est dit intègre s’il n’existe pas de diviseur de 0 dans A.
+
+## Anneau euclidien 
+
+Un anneau intègre A équipé d’une fonction d : A → N ∪ {−∞} est dit
+euclidien si pour tout couple (a, b) ∈ A
+2 avec b 6= 0, il existe q et r dans
+A tel que : 
+\
+a = qb + r avec d(r) < d(b).
+\
+Cette dernière relation étant appelée division euclidienne de a par b,
+l’élément q le quotient et r le reste de cette division. d s’appelle un
+stathme sur A.
+
