@@ -1,7 +1,7 @@
 # Anneau 
 
 ## Anneau commutatif (A, *, ◦)
--**Groupe commutatif pour l’opération*** 
+-**Groupe commutatif pour l’opération(\*)** 
 \
 -**Associativité et existence d’un élément neutre pour ◦**
 \
