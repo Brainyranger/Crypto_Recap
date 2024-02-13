@@ -12,7 +12,7 @@
 ## Sous-groupe 
 Un sous-ensemble U (Unterring) d’un anneau A est un sous-anneau de A s’il est
 lui-même un anneau pour les opérations de A.
-
+\
 **Dans un anneau A s’il existe c ∈ A tel que b = ac alors**
 \
 a est un diviseur de b
