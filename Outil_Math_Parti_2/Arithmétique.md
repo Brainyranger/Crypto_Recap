@@ -54,4 +54,4 @@ r_{i+1} = r_{i-1} - q_i r_i, \\
 \end{cases}
 \]$$
 
-avec \( q_i = \left\lfloor \frac{r_{i-1}}{r_i} \right\rfloor \) si \( r_i \neq 0 \).
+avec  $$\( q_i = \left\lfloor \frac{r_{i-1}}{r_i} \right\rfloor \) si \( r_i \neq 0 \)$$.
