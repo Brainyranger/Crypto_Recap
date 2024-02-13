@@ -13,3 +13,10 @@ L’ensemble (Z/nZ)<sup>×</sup> des inversibles de Z/nZ est donné par les él�
 pgcd(a, n) = 1
 \
 L’inverse étant calculé par l’algorithme d’Euclide étendu
+
+## Intégrité
+Z/nZ est intègre ssi n est premier.
+
+## Corollaire
+Si n est irréductible (⇔ premier dans Z) alors tous les éléments non
+nuls de Z/nZ sont inversibles.
