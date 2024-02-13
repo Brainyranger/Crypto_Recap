@@ -27,3 +27,10 @@ Pour tout $K \in K$, on a :
 -  on a $$\( e_K(x) = (ax + b) \mod 26 \)$$.
 - Il existe une fonction $$\( d_K : C \rightarrow P \) inverse de \( e_K \)$$.
 
+**Comment déterminer l’ensemble K ?**
+Étant donnés a, b, y il faut résoudre l’équation
+\
+y = ax + b mod 26
+\
+Ceci n’est possible que si a est inversible modulo 26. On obtient alors
+dK(y) = a<sup>−1</sup>(y − b)
