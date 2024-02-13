@@ -48,3 +48,11 @@ Cette dernière relation étant appelée division euclidienne de a par b,
 l’élément q le quotient et r le reste de cette division. d s’appelle un
 stathme sur A.
 
+## Irréductible 
+Un élément p d’un anneau A est irréductible s’il est ni nul ni inversible
+et s’il a exactement deux diviseurs (à association près) : 1 et p.
+
+## Premiers 
+Un élément p d’un anneau A est dit premier s’il est ni nul ni inversible
+et s’il vérifie la propriété p | ab ⇒ p | a ou p | b.
+
