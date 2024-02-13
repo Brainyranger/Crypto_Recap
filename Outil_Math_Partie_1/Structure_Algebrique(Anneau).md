@@ -39,8 +39,7 @@ ab = 0. Un anneau A est dit intègre s’il n’existe pas de diviseur de 0 dans
 ## Anneau euclidien 
 
 Un anneau intègre A équipé d’une fonction d : A → N ∪ {−∞} est dit
-euclidien si pour tout couple (a, b) ∈ A
-2 avec b 6= 0, il existe q et r dans
+euclidien si pour tout couple (a, b) ∈  A<sup>2</sup> avec b != 0, il existe q et r dans
 A tel que : 
 \
 a = qb + r avec d(r) < d(b).
