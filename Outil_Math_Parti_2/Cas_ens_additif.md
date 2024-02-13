@@ -20,3 +20,6 @@ Z/nZ est intègre ssi n est premier.
 ## Corollaire
 Si n est irréductible (⇔ premier dans Z) alors tous les éléments non
 nuls de Z/nZ sont inversibles.
+
+## Théorème
+L’anneau Z/nZ est un corps ssi n est premier.
