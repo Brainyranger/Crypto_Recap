@@ -117,6 +117,6 @@ Où :
 - $\( \bar{X} \)$ et $\( \bar{Y} \)$ représentent les moyennes de \( X \) et \( Y \) respectivement.
 - $\( sX \)$$ et $\( sY \)$ représentent les écarts-types de \( X \) et \( Y \) respectivement.
 
-Une corrélation parfaite des variables \( X \) et \( Y \) produit \( \rho_{X,Y} = 1 \). Plus \( \rho_{X,Y} \) est proche de 1 et plus on peut considérer que la fréquence des caractères dans le texte chiffré en cours de transformation et celle de la langue sont corrélées.
+Une corrélation parfaite des variables \( X \) et \( Y \) produit $\( \rho_{X,Y} = 1 \)$. Plus $\( \rho_{X,Y} \)$ est proche de 1 et plus on peut considérer que la fréquence des caractères dans le texte chiffré en cours de transformation et celle de la langue sont corrélées.
 
 
