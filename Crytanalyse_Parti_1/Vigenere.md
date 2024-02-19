@@ -113,9 +113,9 @@ La corrélation entre les variables \( X \) et \( Y \) est calculée à l'aide d
 $$\[ \rho_{X,Y} = \frac{\sum_{i} (X_i - \bar{X})(Y_i - \bar{Y})}{\sqrt{\sum_{i} (X_i - \bar{X})^2 \sum_{i} (Y_i - \bar{Y})^2}} \]$$
 
 Où :
-- $\( X_i \) et \( Y_i \) représentent les valeurs de \( X \) et \( Y \) respectivement.$
-- $$\( \bar{X} \)$$ et $$\( \bar{Y} \)$$ représentent les moyennes de \( X \) et \( Y \) respectivement.
-- $$\( sX \)$$ et $$\( sY \)$$ représentent les écarts-types de \( X \) et \( Y \) respectivement.
+- $\( X_i \) et \( Y_i \)$ représentent les valeurs de \( X \) et \( Y \) respectivement.
+- $\( \bar{X} \)$ et $\( \bar{Y} \)$ représentent les moyennes de \( X \) et \( Y \) respectivement.
+- $\( sX \)$$ et $\( sY \)$ représentent les écarts-types de \( X \) et \( Y \) respectivement.
 
 Une corrélation parfaite des variables \( X \) et \( Y \) produit \( \rho_{X,Y} = 1 \). Plus \( \rho_{X,Y} \) est proche de 1 et plus on peut considérer que la fréquence des caractères dans le texte chiffré en cours de transformation et celle de la langue sont corrélées.
 
