@@ -49,4 +49,30 @@ Où :
 - \( C(n, 2) \) est le nombre total de paires possibles dans le texte, c'est-à-dire le nombre de façons de choisir 2 lettres parmi les \( n \) lettres du texte.
 - \( C(n_i, 2) \) est le nombre de paires de la lettre \( c_i \) dans le texte, c'est-à-dire le nombre de façons de choisir 2 occurrences de la lettre \( c_i \) parmi les \( n_i \) occurrences de cette lettre dans le texte.
 
+C’est un distingueur.
+
+Principe : 
+
+On parcourt les longueurs de clefs possibles, pour chacune d’elle on découpe le texte en
+colonnes et on calcule la moyenne des IC de ces colonnes.
+\
+Lorsque la longueur de clef n’est pas la bonne, on mélange du texte de plusieurs des vraies
+colonnes donc des caractères du clair qui ont été chiffré avec des décalages différents, ce qui
+brouille la distribution des caractères et donne un IC voisin de celui d’un texte aléatoire.
+\
+En revanche si la longueur de la clef est bonne, tous les caractères d’une colonne subissent le
+même décalage, l’IC de la colonne chiffrée est le même que celui de la colonne claire qui lui
+correspond et leur moyenne est voisine de l’IC de la langue.
+\
+On repère donc une moyenne d’IC supérieure à un certain seuil pour déduire la longueur de la
+clef.
+
+## Cryptanalyse automatique : IC Mutuelle
+L’indice de coïncidence mutuelle (ICM) entre deux textes \( t_1 \) et \( t_2 \) est la probabilité de tirer au hasard la même lettre dans \( t_1 \) et \( t_2 \). Mathématiquement, il peut être calculé à l'aide de la formule suivante :
+
+$$\[ ICM = \sum_{i=0}^{25} \frac{\min(m_i, n_i)}{mn} \]$$
+
+Où :
+- \( m_i \) (resp. \( n_i \)) est le nombre de caractères \( c_i \) dans le texte \( t_1 \) (resp. \( t_2 \)).
+- \( m \) (resp. \( n \)) est la taille de \( t_1 \) (resp. \( t_2 \)).
 
