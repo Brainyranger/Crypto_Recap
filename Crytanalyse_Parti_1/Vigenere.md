@@ -113,7 +113,7 @@ La corrélation entre les variables \( X \) et \( Y \) est calculée à l'aide d
 $$\[ \rho_{X,Y} = \frac{\sum_{i} (X_i - \bar{X})(Y_i - \bar{Y})}{\sqrt{\sum_{i} (X_i - \bar{X})^2 \sum_{i} (Y_i - \bar{Y})^2}} \]$$
 
 Où :
-- $$\( X_i \)$$ et $$\( Y_i \)$$ représentent les valeurs de \( X \) et \( Y \) respectivement.
+- $$\( X_i \) et \( Y_i \)$$ représentent les valeurs de \( X \) et \( Y \) respectivement.
 - $$\( \bar{X} \)$$ et $$\( \bar{Y} \)$$ représentent les moyennes de \( X \) et \( Y \) respectivement.
 - $$\( sX \)$$ et $$\( sY \)$$ représentent les écarts-types de \( X \) et \( Y \) respectivement.
 
