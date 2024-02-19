@@ -76,3 +76,47 @@ Où :
 - \( m_i \) (resp. \( n_i \)) est le nombre de caractères \( c_i \) dans le texte \( t_1 \) (resp. \( t_2 \)).
 - \( m \) (resp. \( n \)) est la taille de \( t_1 \) (resp. \( t_2 \)).
 
+Principe : 
+
+Propriété identique à l’indice de coïncidence
+\
+Attaque des chiffrements par décalage par analyse successive de
+décalés : lorsque le décalage entre les textes est le bon cet indice
+est beaucoup plus élevé 
+
+## La cryptanalyse de Vigenère (avec les IC) : décalage de chaque colonne C
+Analyse de fréquences directe
+Par analyse de fréquences, trouver la position f(Ci) de la lettre la plus
+fréquente de la colonne, compte tenu de la position f(langue) de la
+lettre la plus fréquente de la langue du message, déduire le décalage
+di = f(Ci) − f(langue) de la colonne Ci.
+
+Utilisation des ICM puis analyse de fréquences
+Calculer les ICM des Ci et les stocker dans un tableau de
+différences de décalage dj − di entre les colonnes i et j
+\
+Résoudre le système linéaire correspondant pour exprimer le
+décalage dj6=i de toutes les colonnes sauf la colonne i en fonction
+de di
+\
+Procéder par analyse de fréquences
+I soit sur la colonne i et de di déduire les dj!=i
+I soit sur tout le texte après avoir aligné les colonnes j 6= i sur le
+décalage di
+\
+Puis déduire la clef et le déchiffré du texte.
+.
+## Coefficient de corrélation de Pearson de deux variables aléatoires X et Y
+
+La corrélation entre les variables \( X \) et \( Y \) est calculée à l'aide de la formule suivante :
+
+$$\[ \rho_{X,Y} = \frac{\sum_{i} (X_i - \bar{X})(Y_i - \bar{Y})}{\sqrt{\sum_{i} (X_i - \bar{X})^2 \sum_{i} (Y_i - \bar{Y})^2}} \]$$
+
+Où :
+- \( X_i \) et \( Y_i \) représentent les valeurs de \( X \) et \( Y \) respectivement.
+- \( \bar{X} \) et \( \bar{Y} \) représentent les moyennes de \( X \) et \( Y \) respectivement.
+- \( sX \) et \( sY \) représentent les écarts-types de \( X \) et \( Y \) respectivement.
+
+Une corrélation parfaite des variables \( X \) et \( Y \) produit \( \rho_{X,Y} = 1 \). Plus \( \rho_{X,Y} \) est proche de 1 et plus on peut considérer que la fréquence des caractères dans le texte chiffré en cours de transformation et celle de la langue sont corrélées.
+
+
