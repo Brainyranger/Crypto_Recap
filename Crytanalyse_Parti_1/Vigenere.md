@@ -39,9 +39,9 @@ langue.
 -> On découpe le texte chiffré en bloc de caractères et on applique une cryptanalyse par décalage sur les colonnes !
 
 ## Cryptanalyse automatique : indice de coïncidence
-L'indice de coïncidence \( IC \) d'un texte est la probabilité de tirer un couple de lettres identiques au hasard. Mathématiquement, il peut être calculé à l'aide de la formule suivante :
+L'indice de coïncidence \(IC\) d'un texte est la probabilité de tirer un couple de lettres identiques au hasard. Mathématiquement, il peut être calculé à l'aide de la formule suivante :
 
-\[ IC = \frac{\sum_{i=0}^{25} C(n_i, 2)}{C(n, 2)} \]
+$$\[ IC = \frac{\sum_{i=0}^{25} C(n_i, 2)}{C(n, 2)} \]$$
 
 Où :
 - \( n_i \) est le nombre de fois où la lettre \( c_i \) apparaît dans le texte.
