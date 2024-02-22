@@ -32,12 +32,17 @@ Pour un entier a sa taille est `(a) = log2(a) = O(log(a))
 
 # Complexité naïve sur entier
 Pour a > b > 0
+\
 Addition : O(log(a))
+\
 Multiplication : O(log(a)log(b))
+\
 Division : O(log(a/b)log(b)) = O(log(q)log(b))
 
 # Complexités modulo N
 Addition : O(log(N))
+\
 Multiplication : O(log(N)<sup>2</sup>)
+\
 Inverse (algorithme d’Euclide étendu) : O(log(N)<sup>2</sup>)
 
