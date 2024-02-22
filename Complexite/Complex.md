@@ -11,5 +11,5 @@ d’opérations nécessaires pour résoudre le problème en fonction de n.
 
 **Complexité exponentielle en t :** 2<sup>O(tk)</sup> opérations pour une constante k > 1 fixée.
 
-**Entre les deux** : complexité sous-exponentielle L[α, c] = exp(ct<sup>α<\sup>log(t)<sup>1-α</sup>) n’est
+**Entre les deux** : complexité sous-exponentielle L[α, c] = exp(ct<sup>α</sup>log(t)<sup>1-α</sup>) n’est
 ni polynomiale ni exponentielle pour α ∈]0, 1[ et c une constante fixée.
