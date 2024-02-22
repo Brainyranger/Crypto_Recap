@@ -13,3 +13,31 @@ d’opérations nécessaires pour résoudre le problème en fonction de n.
 
 **Entre les deux** : complexité sous-exponentielle L[α, c] = exp(ct<sup>α</sup>log(t)<sup>1-α</sup>) n’est
 ni polynomiale ni exponentielle pour α ∈]0, 1[ et c une constante fixée.
+
+**Problème facile ? Problème difficile ?**
+Un problème est facile s’il se résout au plus en temps polynomial en la taille de
+son entrée.
+\ Un problème est difficile si l’on ne sait pas mieux faire qu’en temps exponentiel!
+
+# Définitions
+Un problème appartient à P s’il existe un algorithme polynomial
+(en la taille n décrivant le problème) pour résoudre ce problème.
+\
+Un problème appartient à N P s’il existe un algorithme polynomial
+(en la taille n décrivant le problème) pour vérifier une solution de
+ce problème.
+
+# Taille des entrées
+Pour un entier a sa taille est `(a) = log2(a) = O(log(a))
+
+# Complexité naïve sur entier
+Pour a > b > 0
+Addition : O(log(a))
+Multiplication : O(log(a)log(b))
+Division : O(log(a/b)log(b)) = O(log(q)log(b))
+
+# Complexités modulo N
+Addition : O(log(N))
+Multiplication : O(log(N)<sup>2</sup>)
+Inverse (algorithme d’Euclide étendu) : O(log(N)<sup>2</sup>)
+
