@@ -2,11 +2,11 @@
 
 G est un ensemble dont les éléments sont combinés à l'aide d'une opération définie *, appelée loi de composition interne. Soit G × G → G. Tout groupe G répond à 3 propriétés :
 
-- **Associativité** : Pour tout \( (a, b, c) \) dans \( G \times G \times G \), \( a * (b * c) = (a * b) * c \). L'associativité dans un groupe signifie que peu importe comment vous associez les opérations entre trois éléments du groupe, le résultat sera le même.
+- **Associativité** : Pour tout \( (a, b, c) \) dans \( G * G * G \), \( a * (b * c) = (a * b) * c \). L'associativité dans un groupe signifie que peu importe comment vous associez les opérations entre trois éléments du groupe, le résultat sera le même.
 
 - **Neutre** : Il existe un élément \( e \) neutre pour \( * \), c'est-à-dire que pour tout \( a \) dans \( G \), \( a * e = e * a = a \). Il existe un élément dans le groupe qui n'apporte aucun changement lorsqu'il est combiné avec d'autres éléments du groupe.
 
-- **Inverse** : Pour chaque élément \( a \) dans \( G \), il existe un autre élément \( b \) dans \( G \) tel que \( a * b = b * a = e \). Pour chaque élément \( a \) dans le groupe \( G \), il existe un autre élément \( b \) dans le groupe qui est l'inverse de \( a \), tel que \( a * b = \text{élément neutre} \).
+- **Inverse** : Pour chaque élément \( a \) dans \( G \), il existe un autre élément \( b \) dans \( G \) tel que \( a * b = b * a = e \).
 
 **Le groupe est dit commutatif si de plus pour tout \( (a, b) \) dans \( G \times G \), \( a * b = b * a \)**.
 
