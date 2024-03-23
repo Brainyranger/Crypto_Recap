@@ -46,3 +46,9 @@ Multiplication : O(log(N)<sup>2</sup>)
 \
 Inverse (algorithme d’Euclide étendu) : O(log(N)<sup>2</sup>)
 
+
+\
+Complexité échange de clé par Diffie-Hellman-Merkle
+Si l’on souhaite échanger une clé de taille L il faudra faire
+O(4*L <su>3<sup/>)
+opérations binaires.
