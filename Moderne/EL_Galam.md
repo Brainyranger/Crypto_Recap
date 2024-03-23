@@ -7,7 +7,7 @@ Chiffrement : Pour envoyer x ∈ G à Alice, Bob choisit \
 t ∈ {1, . . . , |H|} aléatoirement et ne le publie pas. Il calcule \
 y1 = [t]g et y2 = x ◦ [t]h \
 et envoie le couple (y1, y2) à Alice. \
-Déchiffrement : Alice calcule y2 ◦ [-1]([k]y1) et retrouve x. 
+Déchiffrement : Alice calcule y2 ◦ [-1] ([k]y1) et retrouve x. 
 \
 \
 ElGamal sur les corps finis \
