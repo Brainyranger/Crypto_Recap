@@ -23,3 +23,25 @@ La trappe est la connaissance de d (ou de manière équivalente p
 et q).
 \
 ☞on chiffre en faisant x<sup>e</sup> mod n on déchiffre en calculant y<sup>d</sup> mod n
+
+\
+**Signer avec RSA** \
+☞La signature permet d’authentifier l’expéditeur d’un message
+La signature RSA \
+Soit N = pq un entier RSA et (e, d) un couple d’exposants de
+chiffrement/déchiffrement choisis par l’expéditeur.
+L’expéditeur publie N et d \
+Un message m ∈ (Z/NZ)
+× envoyé par l’expéditeur aura pour signature
+sm = m<sup>e</sup> mod N \
+Le destinataire recevra le couple (m,s) et authentifiera l’expéditeur
+à partir ses clés publiques (N, d) en vérifiant \
+m = sm<sup>d</sup> mod N
+
+\
+## Théorème chinois des restes
+### Théorème
+Soit m1 et m2 deux éléments de A un anneau euclidien. \
+Si pgcd(m1, m2) = 1 alors nous avons l’isomorphisme d’anneau \
+A/m1A × A/m2A ' A/(m1m2)A
+
