@@ -1,7 +1,7 @@
 BSGS de Shanks dans (Z/809Z∗, ×) ' (Z/808Z, +)
 On a g = 3 et h = 525, on veut calculer t tel que g \
 t = h mod 809, on prend s = b√808c + 1 = 29. \
-On a g−s = 3−29 = 523 mod 809. \
+On a g<sup>−s</sup> = 3<sup>−29</sup> = 523 mod 809. \
 Baby-steps : (i, 3
 i mod 809) (i = 0, . . . , 28) : \
 (0, 1), (1, 3), (2, 9), (3, 27), (4, 81), (5, 243),\
